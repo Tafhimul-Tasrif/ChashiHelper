@@ -4,20 +4,28 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 # Load dataset
-df = pd.read_csv("Agriculture_Dataset.csv")
+data = pd.read_csv("Agriculture_Dataset.csv")
 
-# Features (adjust column names if needed)
-X = df[['N', 'P', 'K', 'temperature', 'humidity', 'rainfall']]
-y = df['label']   # crop name
+# Features & Target
+# Example columns: N, P, K, temperature, humidity, ph, rainfall, label
+X = data.drop("label", axis=1)
+y = data["label"]
 
-# Train-test split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+# Train/Test split
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
 
 # Model
-model = RandomForestClassifier()
+model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
-# Save model
-pickle.dump(model, open("model.pkl", "wb"))
+# Accuracy (optional)
+accuracy = model.score(X_test, y_test)
+print(f"Model Accuracy: {accuracy * 100:.2f}%")
 
-print("Model trained & saved!")
+# Save model
+with open("model.pkl", "wb") as f:
+    pickle.dump(model, f)
+
+print("Model saved as model.pkl")
