@@ -1,43 +1,25 @@
-Area,Month,Rainfall,Average Temperature,Average Humidity,Wind Speed,Crop
-Barishal,June,126.3,28.5,80,6.5,Amon Rice
-Bogura,July,80,29,85,5.6,Amon Rice
-Chattogram ,June,161,28.5,85.1,10.5,Amon Rice
-Comilla,June,97.5,28.7,86,7.4,Amon Rice
-Dhaka,June,81,29.2,83,6.5,Amon Rice
-Dinajpur,June,57,29.2,79.4,3.7,Amon Rice
-Faridpur,July,95,29,86.1,5.5,Amon Rice
-Jessore,July,83.5,29.5,85.3,4.4,Amon Rice
-Khulna,July,76.5,29.1,85.6,6.2,Amon Rice
-Mymensingh,July,89,28.7,85.6,7.2,Amon Rice
-Rajshahi,June,51,30,81.7,6.7,Amon Rice
-Rangamati,June,134,28.4,83.4,5.6,Amon Rice
-Rangpur,June,90.5,28.8,82.4,7.4,Amon Rice
-Sylhet,July,129.5,28.4,85.1,6.2,Amon Rice
-Barishal,March,6,26.6,71,5.4,AUS Rice
-Bogura,April,28,28.4,72.9,7.4,AUS Rice
-Chattogram ,March,6.3,26.3,69.4,8.9,AUS Rice
-Comilla,April,42,28.3,77.9,7.5,AUS Rice
-Dhaka,April,21,29,69.2,6.6,AUS Rice
-Dinajpur,March,4,24.1,61.4,5.4,AUS Rice
-Faridpur,March,6,26.6,71,5.4,AUS Rice
-Jessore,May,36,30.4,74,5.2,AUS Rice
-Khulna,April,17.5,30.1,72.8,7.6,AUS Rice
-Mymensingh,April,40,27.5,76.1,7.2,AUS Rice
-Rajshahi,May,33,29.9,74.5,7.2,AUS Rice
-Rangamati,March,4,26.4,64.5,5.4,AUS Rice
-Rangpur,March,2.5,24,64.7,8.2,AUS Rice
-Sylhet,April,78.5,26.9,75.6,6.9,AUS Rice
-Barishal,November,9,24.8,77.2,2.7,BORO Rice
-Bogura,December,0,18.7,72.5,3.7,
-Chattogram ,November,14.3,25.3,74.9,5.6,
-Comilla,October,30.5,28,80.6,4.3,
-Dhaka,October,26,26.9,75.2,3.8,
-Dinajpur,November,0,23,73.7,3.7,
-Faridpur,October,44,28.7,81,3.1,
-Jessore,January,2.5,18,71.2,3,
-Khulna,January,0,19.2,70.8,4.3,
-Mymensingh,,,,,,
-Rajshahi,,,,,,
-Rangamati,,,,,,
-Rangpur,,,,,,
-Sylhet,,,,,,
+N,P,K,temperature,humidity,ph,rainfall,label
+90,42,43,26.5,80,6.5,200,Rice
+85,40,40,27,82,6.3,220,Rice
+88,38,42,25.8,78,6.4,210,Rice
+22,18,15,20,60,6.0,90,Wheat
+20,20,18,18.5,55,6.2,85,Wheat
+25,15,20,19,58,6.1,80,Wheat
+60,35,25,30,70,6.8,150,Corn
+65,30,30,32,65,6.7,140,Corn
+70,40,35,29,68,6.9,160,Corn
+40,20,20,28,75,6.5,180,Jute
+42,22,18,27,78,6.6,170,Jute
+38,25,22,29,74,6.4,160,Jute
+50,25,30,22,65,5.8,120,Potato
+48,28,35,21,60,5.7,110,Potato
+52,30,32,23,62,5.9,115,Potato
+30,10,20,34,50,7.0,60,Millet
+28,12,18,35,48,7.2,55,Millet
+32,15,22,33,52,7.1,65,Millet
+75,50,45,26,85,6.3,230,Rice
+18,12,10,17,50,6.0,70,Wheat
+68,45,40,31,67,6.8,155,Corn
+45,23,21,28,76,6.5,175,Jute
+55,27,33,22,63,5.8,118,Potato
+29,14,19,34,49,7.1,58,Millet
